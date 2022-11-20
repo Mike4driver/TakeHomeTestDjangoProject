@@ -3,8 +3,8 @@ When running the docker-compose on the initial build you may run into an error w
 
 # TestDjangoProject
 
-This is a project made to the specifications of a companies take home assesment.
-It is using Django rest framwork for the api and pytest for the testing portion and is using postgres for the database
+This is a project made to the specifications of a company's take home assessment.
+It is using Django rest framework for the api and pytest for the testing portion and is using postgres for the database
 
 To start the project make sure you have docker-compose installed then run:
 `docker-compose up`
@@ -12,11 +12,11 @@ To start the project make sure you have docker-compose installed then run:
 the api will run on port 8000 and the postgres port is 5432
 You can open your `localhost:8000` in browser to interact with the API
 No .env files where used for this project since it is only using default values
-To run the tests that I have writen for the project while the containers are running run the following command:
+To run the tests that I have written for the project while the containers are running run the following command:
 
 `docker exec -it djangoservice pytest`
 
-Finally here is an explination of all the api routes:
+Finally here is an explanation of all the api routes:
 ## Incrementer Routes
 `/incrementer/` for keyvalue creation. Takes a post request
 
