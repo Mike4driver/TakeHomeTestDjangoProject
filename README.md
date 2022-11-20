@@ -1,4 +1,8 @@
+## Disclaimer
+When running the docker-compose on the initial build you may run into an error where django rejects its connection to postgres. I wasn't able to find out why this happens but it does appear to just go away if you bring it down then back up again. My research tells me making the djangoservice depend on postgres in the yml should prevent problems like this however for whatever reason on the initial launch sometimes it will still falter.
+
 # TestDjangoProject
+
 This is a project made to the specifications of a companies take home assesment.
 It is using Django rest framwork for the api and pytest for the testing portion and is using postgres for the database
 
