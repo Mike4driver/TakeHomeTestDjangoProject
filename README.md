@@ -9,7 +9,7 @@ It is using Django rest framework for the api and pytest for the testing portion
 To start the project make sure you have docker-compose installed then run:
 `docker-compose up`
 
-the api will run on port 8000 and the postgres port is 5432
+The api will run on port 8000 and the postgres port is 5432
 You can open your `localhost:8000` in browser to interact with the API
 No .env files where used for this project since it is only using default values
 To run the tests that I have written for the project while the containers are running run the following command:
