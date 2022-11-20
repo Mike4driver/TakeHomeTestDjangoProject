@@ -1,0 +1,8 @@
+Django
+djangorestframework
+psycopg2-binary
+uuid
+requests
+pillow
+pytest
+pytest-django
