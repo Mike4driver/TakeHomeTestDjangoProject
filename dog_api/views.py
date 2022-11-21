@@ -53,7 +53,7 @@ def get_image_from_url(dog_image):
 @api_view(['GET'])
 def dog_show(request):
     # we get a random dog from the database
-    count = Dog.objects.aggregate(count=Count('uuid'))['count']
+    count = Dog.objects.all().count()
     random_index = randint(0, count-1)
     dog = DogSerializer(Dog.objects.all()[random_index]).data
     response = get_dog_image_pair(dog)
