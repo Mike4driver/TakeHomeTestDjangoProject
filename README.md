@@ -3,8 +3,7 @@ When running the docker-compose on the initial build you may run into an error w
 
 # TestDjangoProject
 
-This is a project made to the specifications of a company's take home assessment.
-It is using Django rest framework for the api and pytest for the testing portion and is using postgres for the database
+This is using Django rest framework for the api and pytest for the testing portion and is using postgres for the database
 
 To start the project make sure you have docker-compose installed then run:
 `docker-compose up`
